@@ -11,7 +11,7 @@
     background-image: url("underwater.jpg");
     background-size: cover;
     background-position: center;
-    padding: 0 7%;
+    padding: 0 2%;
     position: relative;
 }
 
@@ -23,78 +23,78 @@ nav {
     padding: 5px 0;
 }
 
-nav ul {
-    flex: 1;
-    text-align: right;
-    padding-right: 30px;
-}
+    nav ul {
+        flex: 1;
+        text-align: right;
+        padding-right: 30px;
+    }
 
-nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 10px 30px;
-    position: relative;
-}
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            margin: 10px 30px;
+            position: relative;
+        }
 
-nav ul li a {
-    color: rgb(18, 208, 255);
-    font-size: 20px;
-    text-decoration: none;
-    position: relative;
-}
+            nav ul li a {
+                color: rgb(18, 208, 255);
+                font-size: 20px;
+                text-decoration: none;
+                position: relative;
+            }
 
-nav ul li a::after {
-    content: '';
-    width: 0;
-    height: 3px;
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgb(38, 175, 254);
-    transition: width 0.2s;
-}
+                nav ul li a::after {
+                    content: '';
+                    width: 0;
+                    height: 3px;
+                    position: absolute;
+                    bottom: -5px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background: rgb(38, 175, 254);
+                    transition: width 0.2s;
+                }
 
-nav ul li a:hover::after {
-    width: 60%;
-}
+                nav ul li a:hover::after {
+                    width: 60%;
+                }
 
-nav ul li ul {
-    display: none;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px;
-    border-radius: 5px;
-    width: max-content;
-}
+            nav ul li ul {
+                display: none;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                text-align: center;
+                background-color: rgba(0, 0, 0, 0.7);
+                padding: 10px;
+                border-radius: 5px;
+                width: max-content;
+            }
 
-nav ul li:hover ul {
-    display: block;
-}
+            nav ul li:hover ul {
+                display: block;
+            }
 
-nav ul li ul li {
-    display: block;
-    margin: 5px 0;
-}
+            nav ul li ul li {
+                display: block;
+                margin: 5px 0;
+            }
 
-nav ul li ul li a {
-    color: lime;
-    padding: 5px 10px;
-    display: block;
-}
+                nav ul li ul li a {
+                    color: lime;
+                    padding: 5px 10px;
+                    display: block;
+                }
 
-nav ul li ul li a:hover{
-    text-decoration: none;
-    background-color: #333;
-    color: rgb(18, 208, 255);
-}
+                    nav ul li ul li a:hover {
+                        text-decoration: none;
+                        background-color: #333;
+                        color: rgb(18, 208, 255);
+                    }
 
-nav ul li ul li a:hover::after{
-    width: 0%;
-}
+                        nav ul li ul li a:hover::after {
+                            width: 0%;
+                        }
 
 .popup {
     display: none;
@@ -103,18 +103,17 @@ nav ul li ul li a:hover::after{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-
 }
 
 .popup-content {
     position: relative;
-    background: rgba(0, 0, 0, 0.7);;
+    background: rgba(0, 0, 0, 0.7);
+    ;
     color: lime;
     font-size: 20px;
     padding: 25px;
     border-radius: 10px;
     line-height: 29px;
-    
     text-align: justify;
 }
 
@@ -131,24 +130,24 @@ nav ul li ul li a:hover::after{
     bottom: 5%;
 }
 
-.text-box p {
-    font-size: 50px;
-    font-weight: 600;
-    text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
-}
+    .text-box p {
+        font-size: 50px;
+        font-weight: 600;
+        text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
+    }
 
-.text-box h1 {
-    font-size: 190px;
-    font-family: 'Courier New', monospace;
-    line-height: 160px;
-    margin-left: -10px;
-    color: transparent;
-    -webkit-text-stroke: 1px blue;
-    background: url("stripes.png");
-    -webkit-background-clip: text;
-    background-position: 0 0;
-    animation: bg 20s linear infinite;
-}
+    .text-box h1 {
+        font-size: 190px;
+        font-family: 'Courier New', monospace;
+        line-height: 160px;
+        margin-left: -10px;
+        color: transparent;
+        -webkit-text-stroke: 1px blue;
+        background: url("stripes.png");
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: bg 20s linear infinite;
+    }
 
 @keyframes bg {
     100% {
@@ -188,13 +187,13 @@ nav ul li ul li a:hover::after{
     bottom: 3%;
 }
 
-.social img {
-    width: 33px;
-    display: block;
-    margin: 35px 5px;
-}
+    .social img {
+        width: 40px;
+        display: block;
+        margin: 40px 5px;
+    }
 
-.x{
+.x {
     width: 16px;
     height: 18px;
 }
